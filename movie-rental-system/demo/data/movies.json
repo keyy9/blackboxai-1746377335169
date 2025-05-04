@@ -1,0 +1,59 @@
+{
+    "movies": [
+        {
+            "id": 1,
+            "title": "The Dark Knight",
+            "genre": "Action, Drama",
+            "image": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX300.jpg",
+            "available": true,
+            "price": 5.00
+        },
+        {
+            "id": 2,
+            "title": "Inception",
+            "genre": "Sci-Fi, Action",
+            "image": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg",
+            "available": true,
+            "price": 4.50
+        },
+        {
+            "id": 3,
+            "title": "The Godfather",
+            "genre": "Crime, Drama",
+            "image": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+            "available": true,
+            "price": 3.50
+        },
+        {
+            "id": 4,
+            "title": "Pulp Fiction",
+            "genre": "Crime, Drama",
+            "image": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+            "available": true,
+            "price": 4.00
+        },
+        {
+            "id": 5,
+            "title": "The Shawshank Redemption",
+            "genre": "Drama",
+            "image": "https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+            "available": true,
+            "price": 3.50
+        }
+    ],
+    "users": [
+        {
+            "id": 1,
+            "name": "John Doe",
+            "email": "john@example.com",
+            "activeRentals": 0
+        },
+        {
+            "id": 2,
+            "name": "Jane Smith",
+            "email": "jane@example.com",
+            "activeRentals": 0
+        }
+    ],
+    "rentals": []
+}
