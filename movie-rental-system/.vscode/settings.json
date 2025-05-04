@@ -1,0 +1,33 @@
+{
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.project.sourcePaths": ["src/main/java"],
+    "java.project.outputPath": "target/classes",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ],
+    "editor.formatOnSave": true,
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "java.dependency.packagePresentation": "hierarchical",
+    "java.debug.settings.hotCodeReplace": "auto",
+    "java.configuration.maven.notCoveredPluginExecutionSeverity": "warning",
+    "java.maven.downloadSources": true,
+    "java.completion.importOrder": [
+        "java",
+        "javax",
+        "jakarta",
+        "org",
+        "com",
+        ""
+    ],
+    "java.saveActions.organizeImports": true,
+    "java.format.enabled": true,
+    "java.format.onType.enabled": true,
+    "java.format.comments.enabled": true,
+    "java.format.settings.profile": "GoogleStyle"
+}
