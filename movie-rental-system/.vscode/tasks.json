@@ -1,0 +1,43 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Project",
+            "type": "shell",
+            "command": "mvn clean install",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Run Web Application",
+            "type": "shell",
+            "command": "mvn tomcat7:run",
+            "group": "none",
+            "problemMatcher": []
+        },
+        {
+            "label": "Run Console Application",
+            "type": "shell",
+            "command": "mvn exec:java -Dexec.mainClass=\"MovieRentalSystem\"",
+            "group": "none",
+            "problemMatcher": []
+        },
+        {
+            "label": "Setup Database",
+            "type": "shell",
+            "command": "mysql -u root -p < src/main/resources/database.sql",
+            "group": "none",
+            "problemMatcher": []
+        },
+        {
+            "label": "Clean and Package",
+            "type": "shell",
+            "command": "mvn clean package",
+            "group": "build",
+            "problemMatcher": []
+        }
+    ]
+}
