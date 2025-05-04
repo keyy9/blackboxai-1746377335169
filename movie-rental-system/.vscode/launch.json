@@ -1,0 +1,28 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Web Application",
+            "request": "launch",
+            "mainClass": "Launcher",
+            "projectName": "movie-rental-system",
+            "env": {
+                "PORT": "8000"
+            }
+        },
+        {
+            "type": "java",
+            "name": "Launch Console Application",
+            "request": "launch",
+            "mainClass": "MovieRentalSystem",
+            "projectName": "movie-rental-system"
+        }
+    ],
+    "compounds": [
+        {
+            "name": "Web + Console",
+            "configurations": ["Launch Web Application", "Launch Console Application"]
+        }
+    ]
+}
